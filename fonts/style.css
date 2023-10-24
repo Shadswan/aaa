@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Sansation';
+    src: local('Sansation Light'), local('Sansation-Light'),
+        url('SansationLight.woff2') format('woff2'),
+        url('SansationLight.woff') format('woff'),
+        url('SansationLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
