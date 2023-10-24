@@ -1,0 +1,209 @@
+
+@font-face {
+    font-family: Sansation Bold;
+    src: url(/ка3иныч/fonts/SansationLight.ttf);
+}
+
+
+body{
+    background-color: black;
+    
+}
+.zagolov{
+    display: flex;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    color: #ffffff;
+    font-size: 50px;
+    text-decoration: none;
+}
+.verh{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.user{
+    display: flex;
+ background-color: #ffffff;
+ border-radius: 99%;
+ width: 80px;
+    height: 80px;
+}
+.VHOD{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+.obeda{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+font-family: Sansation Bold;
+color: #ffffff;
+}
+.games{
+    background-color: #210139;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+}
+.mamont{
+    width: 80px;
+    height: 80px;
+}
+.igra{
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border-style:solid;
+    border-left-width: 80px;
+    border-right-width: 80px;
+    border-bottom-width: 35px;
+    width: 160px;
+    height: 100px;
+    border-top-width: 35px;
+    align-items: center;
+}
+.real-mamont{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.odval{
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+   right:0;
+  bottom:0;
+  width:99%;
+  height: 101px;
+    
+}
+.lizen{
+    font-family: Sansation Bold;
+    display: flex;
+    flex-direction: column;
+     color: #ffffff;
+}
+.bag{
+    height: 200px;
+    width: 200px;
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    height: 50vh;
+    width: calc((100% / 3) - 16px);
+    margin: 8px;
+    border-radius: 3px;
+    transition: all 200ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-actions {
+    margin: 8px;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #load-more {
+    
+    padding: 16px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  
+  #load-more:not([disabled]):hover {
+    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.2);
+  }
+  
+  #load-more[disabled] {
+    background-color: #eaeaea !important;
+  }
+  .ESHE{
+    background-color: #210139;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+  }
+  input[type=text], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  .container{
+display: flex;
+flex-direction: column;
+    align-items: center;
+  }
+  .bukava{
+    color: #ffffff;
+    font-family: Sansation Bold;
+    font-size: 20px;
+  }
+  .regist{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    text-decoration: none;
+  }
+
+
+  canvas {
+    image-rendering: pixelated;
+    padding: 100px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: 16px 'Segoe UI', Arial, Helvetica, sans-serif;
+    margin-left: 650px;
+
+}
+.balik{
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+

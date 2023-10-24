@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/b.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="verh">
+        <img class="icon" src="/img/sakura (2).png">
+        <a class="zagolov" href="http://127.0.0.1:5500/glav.html"> X-BULBA</a>
+        <div class="VHOD"><img class="user" src="/img/user (1).png">
+            <a style="color: white; font-family: Sansation Bold;"> User</a>
+        </div>
+    </section>
+    <section class="balik">
+    <form method="POST" action="https://money.yandex.ru/quickpay/confirm.xml">
+        <input type="hidden" name="receiver" value="410000000000">
+        <input type="hidden" name="formcomment" value="name">
+        <input type="hidden" name="label" value="16078">
+        <input type="hidden" name="quickpay-form" value="shop">
+        <input type="hidden" name="targets" value="Пополнение баланса">
+        <input type="text" name="sum" data-type="number">
+        <input type="hidden" name="need-fio" value="false">
+        <input type="hidden" name="need-email" value="true">
+        <input type="hidden" name="need-phone" value="false">
+        <input type="hidden" name="need-address" value="false">
+        <input type="hidden" name="paymentType" value="PC" />
+        <input type="hidden" name="successURL" value="http://url">
+       <button class="regist" >Оплатить</button> 
+       </form>
+    </section>
+    <footer>
+        <section class="odval">
+            <div class="lizen">
+                <a>О нас</a>
+                <a>Правила и условия</a>
+                <a>ЛИцен3ия</a>
+                <a>FAQ</a>
+            </div>
+            <img class="bag" src="img/pngwing.com (1).png">
+        </section>
+    </footer>
+    <script defer src="js.js"></script>
+
+</html>
